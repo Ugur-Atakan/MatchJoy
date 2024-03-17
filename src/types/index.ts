@@ -5,5 +5,5 @@ export type {
   LoginCredentials,
   RegisterCredentials,
 } from './User';
-
-export type {StepCounterData} from './StepData';
+export type { Character } from './Character';
+export type { StepCounterData } from './StepData';
