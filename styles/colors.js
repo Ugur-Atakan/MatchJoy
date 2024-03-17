@@ -1,0 +1,15 @@
+export const COLORS = {
+  background: '#fff',
+  green: '#2B9562',
+  grey: '#102D558C',
+  white: '#fff',
+  black: '#000',
+  gray: 'rgba(98, 120, 117, 1)',
+  modalDark: '#262135',
+  modalLight: '#fefefe',
+  primaryHeading: '#002962',
+  primaryTitle: '#2D4D96',
+  primarySubText: '#002962',
+  purple: '#AF63CA',
+  pink: '#F4D6FF',
+};
