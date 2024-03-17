@@ -1,11 +1,9 @@
-import { SafeAreaView, Text, View } from "react-native";
+import { SafeAreaView, Text } from "react-native";
 
 export default function LoginScreen() {
   return (
-    <SafeAreaView>
-      <View>
-        <Text>Login</Text>
-      </View>
-    </SafeAreaView>
+    <SafeAreaView className="flex-1 bg-[#ffffff]">
+      <Text className="text-2xl text-center text-[#000]">LOGİN SCREEN</Text>
+    </SafeAreaView >
   )
 }
