@@ -5,8 +5,8 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { useAppSelector } from '../utils/redux/hooks';
-import LoginScreen from '../screens/auth/Login';
-import RegisterScreen from '../screens/auth/Register';
+import LoginScreen from '@screens/auth/Login';
+import RegisterScreen from '@screens/auth/Register';
 import MatchScreen from '../screens/app/match';
 import Messagescreen from '../screens/app/message';
 import SettingsScreen from '../screens/app/settings';
@@ -14,6 +14,7 @@ import LoadingComponent from '../component/common/Loading';
 import ProfileScreen from '../screens/profile';
 import LanguageSettingScreen from '../screens/app/settings/LanguageSetting';
 import PasswordResetScreen from '../screens/auth/ResetPassword';
+
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
